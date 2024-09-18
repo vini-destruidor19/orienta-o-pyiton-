@@ -9,9 +9,14 @@ pessoa_Alisson.altenativa_destino()
 pessoa_Samuel.receber_Preco("Rota 1", 15)
 pessoa_Samuel.receber_Preco('Rota 2', 30)
 
+pessoa_kauane.receber_Preco("Rota 1", 20)
+pessoa_kauane.receber_Preco('Rota 2', 32)
+
+pessoa_Gustavo.receber_Preco("Rota 1", 15)
+pessoa_Gustavo.receber_Preco('Rota 2', 25)
 
 def main():
     Para_onde.listar_destino()
-    
+
 if __name__== "__main__":
     main()
